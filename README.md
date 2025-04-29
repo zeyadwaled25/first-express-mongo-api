@@ -39,7 +39,6 @@ Create a .env file in the root directory and add your MongoDB URI and port numbe
 Run the server:
   npm start
   The server will start on http://localhost:4000.
----
 
 ## 🚀 Environment Variables
   - Make sure to replace the MongoDB connection string in the .env file with your actual MongoDB URI. This helps to keep sensitive information, like the database credentials, secure.
@@ -47,7 +46,6 @@ Run the server:
 Example .env file:
   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/myDatabase?retryWrites=true&w=majority
   PORT=4000
----
 
 ## 📝 Notes
   - Error Handling: Invalid requests (such as malformed JSON) are handled by the error middleware, which returns appropriate error messages.
